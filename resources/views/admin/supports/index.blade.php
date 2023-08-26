@@ -1,4 +1,5 @@
 <h1>Listagem dos Suportes</h1>
+<a href="{{ route('supports.create') }}">Registar Dúvida</a>
 
 <table>
     <thead>
