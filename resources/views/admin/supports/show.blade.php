@@ -1,5 +1,4 @@
-<a href="{{ route('supports.index') }}">Voltar</a>
-<h1>Detalhes da Dúvida {{ $support->id }}</h1>
+<x-back-index title="Detalhes da Dúvida {{ $support->id }}"/>
 <ul>
     <li>Assunto: {{ $support->subject }}</li>
     <li>Status: {{ $support->status }}</li>
